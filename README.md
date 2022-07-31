@@ -94,3 +94,6 @@ Rails provides a routes method named resources that maps all of the conventional
 form builder
 
 [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
+
+7.3.2 Using Strong Parameters
+[Action Controller Overview And Strong Parameters](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
