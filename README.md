@@ -87,3 +87,5 @@ Rails provides a routes method named resources that maps all of the conventional
 \_url or \_path form the names of these helpers. For example, the article_path helper returns "/articles/#{article.id}"
 
 [Rails Routing from the Outside in](https://guides.rubyonrails.org/routing.html)
+
+7.3. Creating a New Article
