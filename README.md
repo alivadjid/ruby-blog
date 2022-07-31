@@ -77,3 +77,13 @@ We can see the final result by visiting http://localhost:3000. (Remember that bi
 6 - The ERB code in the view is evaluated to output HTML.
 7 - The server sends a response containing the HTML back to the browser.
 We've connected all the MVC pieces together, and we have our first controller action! Next, we'll move on to the second action.
+
+7.2. Resourceful Routing
+
+Rails provides a routes method named resources that maps all of the conventional routes for a collection of resources, such as articles.
+
+`bin/rails routes`
+
+\_url or \_path form the names of these helpers. For example, the article_path helper returns "/articles/#{article.id}"
+
+[Rails Routing from the Outside in](https://guides.rubyonrails.org/routing.html)
