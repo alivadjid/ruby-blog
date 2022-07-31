@@ -62,3 +62,18 @@ This method returns an ActiveRecord::Relation object, which you can think of as 
 [Active_Record_Query_Interface](https://guides.rubyonrails.org/active_record_querying.html)
 
 6.4. Showing a list of Articles
+
+```
+<% %> and <%= %>. The <% %> tag means "evaluate the enclosed Ruby code." The <%= %> tag means "evaluate the enclosed Ruby code, and output the value it returns."
+```
+
+We can see the final result by visiting http://localhost:3000. (Remember that bin/rails server must be running!) Here's what happens when we do that:
+
+1 - The browser makes a request: GET http://localhost:3000.
+2 - Our Rails application receives this request.
+3 - The Rails router maps the root route to the index action of ArticlesController.
+4 - The index action uses the Article model to fetch all articles in the database.
+5 - Rails automatically renders the app/views/articles/index.html.erb view.
+6 - The ERB code in the view is evaluated to output HTML.
+7 - The server sends a response containing the HTML back to the browser.
+We've connected all the MVC pieces together, and we have our first controller action! Next, we'll move on to the second action.
