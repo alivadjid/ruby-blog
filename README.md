@@ -89,3 +89,8 @@ Rails provides a routes method named resources that maps all of the conventional
 [Rails Routing from the Outside in](https://guides.rubyonrails.org/routing.html)
 
 7.3. Creating a New Article
+
+7.3.1 Using a Form Builder
+form builder
+
+[Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html)
