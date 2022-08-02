@@ -115,3 +115,11 @@ form builder
 ### 7.3.4 Finishing up
 
 ### 7.4 Updating an Article
+
+#### 7.4.1 Using Partials to Share VIew Code
+
+Форма заменяется на общий код - \_form.html.erb
+
+[Partials](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
+
+#### 7.4.2 Finishing up
