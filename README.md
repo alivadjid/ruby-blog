@@ -123,3 +123,8 @@ form builder
 [Partials](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
 
 #### 7.4.2 Finishing up
+
+`redirect_to root_path, status: :see_other` - указывает на статус. Здесь будет 303 - see other
+или `articles_path`
+
+для удаления и подтверждения удаления используется [Turbo](https://turbo.hotwired.dev/)
