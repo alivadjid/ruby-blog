@@ -150,3 +150,13 @@ form builder
 ```
 
 `bin/rails db:migrate`
+
+### 8.2 Associationg Models
+
+Each comment belongs to one article.
+One article can have many comments.
+
+articles.rb has_many :comments
+теперь в @artile будет @article.comments
+
+[Active Record associations](https://guides.rubyonrails.org/association_basics.html)
