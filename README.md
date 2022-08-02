@@ -172,3 +172,7 @@ end
 Это создает комментарии как вложенный ресурс в статьях. Это еще одна часть фиксации иерархических отношений между статьями и комментариями.
 
 [Rails Routing Guide](https://guides.rubyonrails.org/routing.html)
+
+### 8.4 Generating a controller
+
+`bin/rails generate controller Comments`
