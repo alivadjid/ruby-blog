@@ -130,3 +130,23 @@ form builder
 для удаления и подтверждения удаления используется [Turbo](https://turbo.hotwired.dev/)
 
 ### 7.5 Deleting an Article
+
+## 8 Adding a Second Model
+
+Добавление комментариев для articles
+
+`bin/rails generate model Comment commenter:string body:text article:references `
+
+Создалась модел Comment
+
+```
+  invoke  active_record
+  create    db/migrate/20220802180544_create_comments.rb
+  create    app/models/comment.rb
+  invoke    test_unit
+  create      test/models/comment_test.rb
+  create      test/fixtures/comments.yml
+
+```
+
+`bin/rails db:migrate`
