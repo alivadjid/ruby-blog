@@ -128,3 +128,5 @@ form builder
 или `articles_path`
 
 для удаления и подтверждения удаления используется [Turbo](https://turbo.hotwired.dev/)
+
+### 7.5 Deleting an Article
