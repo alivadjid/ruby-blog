@@ -160,3 +160,15 @@ articles.rb has_many :comments
 теперь в @artile будет @article.comments
 
 [Active Record associations](https://guides.rubyonrails.org/association_basics.html)
+
+### 8.3 Adding a Route for Comments
+
+```
+resources :articles do
+resources :comments
+end
+```
+
+Это создает комментарии как вложенный ресурс в статьях. Это еще одна часть фиксации иерархических отношений между статьями и комментариями.
+
+[Rails Routing Guide](https://guides.rubyonrails.org/routing.html)
