@@ -97,3 +97,21 @@ form builder
 
 7.3.2 Using Strong Parameters
 [Action Controller Overview And Strong Parameters](https://guides.rubyonrails.org/action_controller_overview.html#strong-parameters)
+
+### 7.3.3. Validations and Displaying Error Messages
+
+#### Feature. Disable keys updated_at, created_at and more in API
+
+#### Удалить поля связанные с ДБ и АПИ
+
+#### отправка запросов с postman. Например для создания формы
+
+#### Авторизация
+
+Валидация добавляется в модели
+
+[Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html#working-with-validation-errors)
+
+### 7.3.4 Finishing up
+
+### 7.4 Updating an Article
