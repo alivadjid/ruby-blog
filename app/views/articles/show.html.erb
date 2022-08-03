@@ -23,12 +23,15 @@
   <p>
     <strong>Comment:</strong>
     <%= comment.body %>
-  </p> -->
+  </p> 
 <% end %>
-
+-->
 
 <h2>Add a comment</h2>
 
+<%= render 'comments/form' %>
+
+<!--
 <%= form_with model: [ @article, @article.comments.build ] do |form| %>
   <p>
     <%= form.label :commenter %><br>
@@ -43,5 +46,5 @@
   <p>
     <%= form.submit %>
   </p>
-
 <% end %>
+-->
