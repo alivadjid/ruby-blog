@@ -176,3 +176,11 @@ end
 ### 8.4 Generating a controller
 
 `bin/rails generate controller Comments`
+
+## 9 Refactoring
+
+добавляем partial. \_comment.html.erb
+`<%= render @article.comments %>`
+каждый коммент рендерит с использованием partial - `_comment.html.erb`
+
+### 9.2 Rendering a Partial Form

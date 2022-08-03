@@ -12,16 +12,18 @@
 </ul>
 
 <h2>Comments</h2>
+  <%= render @article.comments %>
+<!--
 <% @article.comments.each do |comment| %>
   <p>
     <strong>Commenter:</strong>
     <%= comment.commenter %>
-  </p>
+  </p> 
 
   <p>
     <strong>Comment:</strong>
     <%= comment.body %>
-  </p>
+  </p> -->
 <% end %>
 
 
