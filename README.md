@@ -184,3 +184,41 @@ end
 каждый коммент рендерит с использованием partial - `_comment.html.erb`
 
 ### 9.2 Rendering a Partial Form
+
+partial_form in `app/views/comments/_form.html.erb`
+
+### 9.3 Using concerns
+
+mixins
+
+```
+app/controllers/concerns
+app/models/concerns
+
+```
+
+```
+bin/rails generate migration AddStatusToArticles status:string
+bin/rails generate migration AddStatusToComments status:string
+
+```
+
+```
+bin/rails db:migrate
+
+```
+
+добавление поля status в комментарии и артикл
+
+добавление в модели
+
+view вывод не архивных данных
+
+создаем модуль в models/concerns для валидных статусов
+общий валид
+
+Методы класса также могут быть добавлены к «проблемам». Если мы хотим отобразить количество общедоступных статей или комментариев на нашей главной странице, мы можем добавить метод класса к Visible следующим образом:
+
+подсчет кол-ва не архивных комментов
+
+добавление селекта статус в формы
