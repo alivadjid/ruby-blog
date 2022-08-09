@@ -231,3 +231,10 @@ view вывод не архивных данных
 
 if you delete an article, its associated comments will also need to be deleted
 `has_many :comments, dependent: :destroy`
+
+## 11. Security
+
+### 11.1 Basic Authentication
+
+[Device](https://github.com/plataformatec/devise)
+[Authlogic](https://github.com/binarylogic/authlogic)
