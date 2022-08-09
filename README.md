@@ -226,3 +226,8 @@ view вывод не архивных данных
 добавление селекта статус в формы
 
 ## 10. Deleting comments
+
+### 10.1 deleting associated object
+
+if you delete an article, its associated comments will also need to be deleted
+`has_many :comments, dependent: :destroy`
